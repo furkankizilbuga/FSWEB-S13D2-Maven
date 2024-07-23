@@ -9,8 +9,6 @@ public class Main {
         num = Math.abs(num);
         char[] digits = String.valueOf(num).toCharArray();
 
-        if(digits[0] != digits[digits.length-1]) return false;
-
         int startIndex = 0;
         int endIndex = digits.length - 1;
 
