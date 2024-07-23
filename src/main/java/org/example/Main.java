@@ -57,7 +57,7 @@ public class Main {
         char[] digits = String.valueOf(num).toCharArray();
 
         String numsInWords = "";
-
+ 
         for (int i = 0; i < digits.length; i++) {
             if(i == digits.length-1) {
                 numsInWords += numNames[Integer.parseInt(String.valueOf(digits[i]))];
